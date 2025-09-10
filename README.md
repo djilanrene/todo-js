@@ -6,7 +6,7 @@
 
 Ce projet est une application web de type "Todo List" qui permet d'ajouter, de gérer et de supprimer des tâches. L'interface est épurée et responsive, et l'application est contrôlée par la souris et des raccourcis clavier pour une productivité maximale.
 
-![Aperçu de la Quick Todo List](https://i.imgur.com/quick-todo-list-X8j6097.png)
+![Aperçu de la Quick Todo List](https://imgur.com/jhhOPPP.png)
 
 ---
 
