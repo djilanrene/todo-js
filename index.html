@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <section>
+        <h1>Quick Todo List</h1>
+        <div class="container">
+            <div class="todo">
+                <input type="text" name="text_input" id="inputfield" placeholder="Nouvelle tâche">
+                <button id="addtodo" onclick="saveTodo()">+</button>
+            </div>
+            <div id="error-message"></div>
+            <div id="todolist"></div>
+        </div>
+    </section>
+    <footer>
+        Développé par <a href="https://github.com/djilanrene/" target="_blank">Junior</a> - Copyright&copy; 2025
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

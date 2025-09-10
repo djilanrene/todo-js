@@ -1,0 +1,185 @@
+/* importer la google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: 'wdth' 100;
+}
+
+body {
+  background-color: rgba(255, 228, 196, 0.5);
+  display: flex;
+  min-height: 100vh;
+  min-width: 320px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+
+
+/* ===FOOTER=== */
+
+footer {
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 2rem;
+  text-align: center;
+  /* line-height: 2rem; */
+}
+
+footer a {
+  color: rgba(59, 230, 59);
+  text-decoration: underline;
+}
+
+/* ===FOOTER=== */
+
+
+
+
+/* ===SECTION-INPUT=== */
+
+section {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%; /* pour permettre à la section d'être extensible et s'adapter à l'écran */
+  max-width: 25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#todolist {
+  padding: 1rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  height: auto;
+}
+
+input,
+p {
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: larger;
+  color: black;
+  border-radius: 10px;
+  transition: 0.1s ease;
+  outline: none; /* pour enlever le contour par défaut lors de la sélection */
+  width: 100%; /* il faut le mettre à 100% sinon la taille du texte va agrandir le cadre et le posser hors de la zone todo */
+}
+
+input:focus {
+  /* pour dire que le champ est sélectionné */
+  border: 2px solid rgba(59, 230, 59, 0.6);
+}
+
+#addtodo {
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(59, 230, 59, 0.6);
+  color: black;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 0;
+  transition: 0.1s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#addtodo:hover {
+  /* quand on passe la souris */
+  transform: scale(1.1);
+}
+
+#addtodo:active {
+  /* quand on clique dessus */
+  background-color: rgba(59, 230, 59, 0.65);
+  font-size: 1.9rem;
+}
+
+/* ===SECTION-INPUT=== */
+
+
+
+
+/* ===PARAGRAPHE JS=== */
+
+p {
+  background-color: bisque;
+  word-break: break-all;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+p:hover {
+  background-color: rgba(255, 228, 196, 0.8);
+}
+
+p:last-child {
+  /* faire en sorte que dernier paragraphe de la list n'ai pas d'espace en bas */
+  margin-bottom: 0;
+}
+
+p.disabled {
+  text-decoration: line-through;
+  color: white;
+  background-color: #a1a1a1;
+}
+
+p.disabled:hover {
+  background-color: rgba(161, 161, 161, 0.8);
+}
+
+/* ===PARAGRAPHE JS=== */
+
+
+
+
+#error-message{
+    display: none;
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
