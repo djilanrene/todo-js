@@ -6,7 +6,7 @@
 
 Ce projet est une application web de type "Todo List" qui permet d'ajouter, de gérer et de supprimer des tâches. L'interface est épurée et responsive, et l'application est contrôlée par la souris et des raccourcis clavier pour une productivité maximale.
 
-![Aperçu de la Quick Todo List](https://i.imgur.com/quick-todo-list-X8j6097.png)
+![Aperçu de la Quick Todo List](https://imgur.com/jhhOPPP.png)
 
 ---
 
@@ -61,13 +61,13 @@ Le projet est entièrement statique et ne nécessite aucune installation de dép
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone https://github.com/djilanrene/quick-todo-list.git
+    git clone https://github.com/djilanrene/todo-js.git
     ```
     *(Note : Remplacez l'URL par le lien de votre dépôt si nécessaire)*
 
 2.  **Accédez au dossier du projet :**
     ```bash
-    cd quick-todo-list
+    cd todo-js
     ```
 
 3.  **Ouvrez le fichier `index.html` :**
